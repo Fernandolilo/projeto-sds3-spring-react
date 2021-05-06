@@ -22,7 +22,7 @@ public class SellerDTO implements Serializable {
 	public SellerDTO(Seller entity) {
 
 		id = entity.getId();
-		name = entity.getNome();
+		name = entity.getName();
 	}
 
 	public Long getId() {
