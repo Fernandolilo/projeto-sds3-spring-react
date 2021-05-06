@@ -820,3 +820,69 @@ java.lang.NullPointerException: Cannot invoke "String.length()" because "typeSig
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:57:50.485
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aMdKdcMY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:57:50.486
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.aMdKdcMY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:57:50.487
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:57:50.488
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aMdKdcMY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:51.237
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:51.238
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4ef94151[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=880)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:51.239
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:58.728
+!MESSAGE Boot LS startup time from start to initialized: 7488ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:58.827
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lIneDhylisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:58.828
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:58.829
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:58.830
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:58.831
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:58.832
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lIneDhyl => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:59.443
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:59.450
+!MESSAGE buffering callback sts4.classpath.lIneDhyl dsvendas false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:58:59.450
+!MESSAGE executing callback sts4.classpath.lIneDhyl 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-05 22:59:00.146
+!MESSAGE executing callback sts4.classpath.lIneDhyl SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-05-05 23:10:37.512
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
