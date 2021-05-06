@@ -1,0 +1,6 @@
+1620263018587	Rename package 'com.systempro.dsvendas.domain'
+1620263055287	Rename type 'saller'
+1620263414593	Rename type 'Saller'
+1620263433314	Encapsulate field 'seller'
+1620263578207	Encapsulate field 'sales'
+1620264729044	Copy file

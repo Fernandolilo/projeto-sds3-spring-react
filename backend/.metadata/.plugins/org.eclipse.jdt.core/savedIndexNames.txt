@@ -53,9 +53,9 @@ INDEX VERSION 1.131+C:\ws-devsuperior\projeto-sds3\backend\.metadata\.plugins\or
 1612549092.index
 2040402349.index
 3227318991.index
-2481612592.index
-3199757808.index
 2322662248.index
+3199757808.index
+2481612592.index
 360972357.index
 2419826496.index
 2390258998.index
